@@ -1,0 +1,30 @@
+{
+  "name": "bookworm-api",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node -- src/index"
+  },
+  "author": "Nina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "nodemon": "^1.17.3",
+    "prettier": "^1.11.1"
+  }
+}
